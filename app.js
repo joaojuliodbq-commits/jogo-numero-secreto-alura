@@ -68,21 +68,3 @@ function novoJogo() {
     document.getElementById("reiniciar").setAttribute('disabled', true);
 }
 
-///////////////primeira versão do código//////////////////
-/* 
-let contador = 1;
-let palavraVez;
-
-let titulo = document.querySelector("h1");
-titulo.innerHTML = "Jogo do número secreto";
-
-let paragrafo = document.querySelector("p");
-paragrafo.innerHTML = "Escolha um número entre 1 e 10";
-
-function verificarChute() {
-    palavraVez = contador > 1 ? 'vezes':'vez';
-    paragrafo.innerHTML = contador < 10 ? "Escolha um número entre 1 e 10":"Para de apertar essa porra atoa!";
-    console.log(`O botão foi clicado ${contador} ${palavraVez}!`);
-    contador++
-}
-*/
